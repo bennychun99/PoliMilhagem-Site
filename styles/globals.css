@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+html,
+body {
+  @apply h-screen;
+}
+
+body {
+  background: rgb(255, 255, 255);
+}
+
+#__next {
+  @apply h-screen flex flex-col;
+}
+
+a,
+a:visited {
+  @apply px-3 inline-block text-center align-middle;
+}
